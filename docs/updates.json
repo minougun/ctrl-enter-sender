@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "ctrl-enter-sender@minougun": {
+      "updates": [
+        {
+          "version": "2.0.0",
+          "update_link": "https://minougun.github.io/ctrl-enter-sender/releases/ctrl-enter-sender-2.0.0.xpi"
+        }
+      ]
+    }
+  }
+}
