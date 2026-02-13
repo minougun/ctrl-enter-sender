@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Ctrl+Enter Sender",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Enterで改行、Ctrl+Enterで送信に変更。チャットサービスでの誤送信を防止します。",
   "author": "minougun",
   "permissions": [
@@ -10,7 +10,6 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "ctrl-enter-sender@minougun",
-      "update_url": "https://minougun.github.io/ctrl-enter-sender/updates.json",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": ["none"]
