@@ -31,7 +31,7 @@ web-ext sign \
   --api-secret "$AMO_SECRET" \
   --channel unlisted \
   --ignore-files "docs/**" "release.sh" ".git/**" ".gitignore" "README.md" \
-  2>&1 | tee /dev/stderr
+  2>&1
 
 # ── 署名済みxpiを探す ──
 SIGNED_XPI=$(find "$SIGN_OUT" -name "*.xpi" | head -1)
